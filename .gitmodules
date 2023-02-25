@@ -1,0 +1,6 @@
+[submodule "LSPlayer"]
+	path = LSPlayer
+	url = git@github.com:arnaud-carre/LSPlayer.git
+[submodule "Shrinkler"]
+	path = Shrinkler
+	url = git@github.com:askeksa/Shrinkler.git

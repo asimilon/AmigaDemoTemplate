@@ -1,0 +1,12 @@
+# Object files
+*.o
+*.a
+*.out
+
+# UAE folder
+uae
+!uae/c
+!uae/s
+
+# macOS crap
+.DS_Store
