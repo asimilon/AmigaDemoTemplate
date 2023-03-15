@@ -5,8 +5,8 @@
 
 # UAE folder
 uae
-!uae/c
-!uae/s
+!uae/dh0/c/UAEquit
+!uae/dh0/s/startup-sequence
 
 # macOS crap
 .DS_Store
