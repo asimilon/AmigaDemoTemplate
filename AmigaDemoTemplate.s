@@ -116,7 +116,7 @@ modData:
 
     SECTION ".data_chip", data_c, chip
 copperList:
-    dc.w        $01fC,$0                ; AGA compat.
+    dc.w        $01fc,$0                ; AGA compat.
     dc.w        DIWSTRT,$2c81           ; for widescreen use DIWSTRT,$5281
     dc.w        DIWSTOP,$2cc1           ; for widescreen use DIWSTOP,$06c1
     dc.w        DDFSTRT,$0038
@@ -125,7 +125,7 @@ copperList:
     dc.w        BPLCON0,$5200
     dc.w        BPLCON1,$0000
     dc.w        BPLCON2,$0024
-    dc.w        $106,$0                 ; AGA compat. BPLCON3
+    dc.w        $106,$0c00              ; AGA compat. BPLCON3
 copperBplPtrs:
     dc.w        BPL1PTH,$0
     dc.w        BPL1PTL,$0
